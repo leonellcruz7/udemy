@@ -1,0 +1,152 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "red", "color": "red" },
+        { "slug": "blue", "color": "blue" }
+      ],
+      "link": true,
+      "custom": true,
+      "duotone": [{ "slug": "b-g", "colors": ["#000", "#444"], "name": "b-g" }],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "sample",
+          "name": "sample",
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+        }
+      ],
+      "customGradient": false
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true,
+          "link": true,
+          "custom": false,
+          "customGradient": true
+        },
+
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Pacifico, sans-serif",
+              "slug": "u-pacifico",
+              "name": "Pacifico"
+            },
+            {
+              "fontFamily": "Rubik, sans-serif",
+              "slug": "u-rubik",
+              "name": "Rubik"
+            }
+          ]
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
+      }
+    },
+    "border": {
+      "width": true,
+      "color": true,
+      "radius": true,
+      "style": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "u-rubik",
+          "name": "Rubik"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": ".75rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1.25rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "2.25rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "3rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "gigantic",
+          "size": "3.75rem",
+          "name": "Gigantic"
+        }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": ["px", "rem", "vh", "vw", "%"],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {},
+    "elements": {
+      "link": {
+        "color": {}
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {}
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "4px",
+          "radius": "20px",
+          "style": "solid",
+          "color": "blue"
+        }
+      }
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "blockGap": "4rem"
+    }
+  }
+}
